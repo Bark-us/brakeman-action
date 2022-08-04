@@ -17,3 +17,4 @@ runs:
     - -w3
     - --color
     - --highlights
+    - --no-progress
