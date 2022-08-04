@@ -14,4 +14,6 @@ runs:
   using: docker
   image: docker://presidentbeef/brakeman
   args:
-    - ${{ inputs.options }}
+    - -w3
+    - --color
+    - --highlights
