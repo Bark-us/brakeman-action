@@ -17,10 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      
       - name: Brakeman code scanning
-        uses: standardnotes/brakeman-action@v1.0.0
-        with:
-          options: "--color -q"
+        uses: Bark-us/brakeman-action@v1.0.0
 ```
 
 ## License
